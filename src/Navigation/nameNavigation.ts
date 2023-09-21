@@ -1,0 +1,136 @@
+/** @format */
+
+export const stackNavigation = {
+	DASHBOARD: 'Dashboard',
+	REGISTER_LEAVE: 'RegisterLeave',
+	REGISTER_LEAVE2: 'RegisterLeave2',
+	DMVS_MNG: 'DMVSMng',
+	DMVS_MNG_DETAIL: 'DMVSMngDetail',
+	ADD_DMVS_MNG: 'AddDMVSMng',
+	REGISTER_OT: 'RegisterOt',
+	REGISTER_OT2: 'RegisterOt2',
+	REGISTER_TIME_EXPLANATION: 'RegisterTimeSheetExplanation',
+	APPROVE_TIME_EXPLANATION: 'ApproveTimeExplanation',
+	REGISTER_LUNCH_SKIP: 'RegisterLunchSkip',
+	APPROVE_LEAVE: 'ApproveLeave',
+	APPROVE_OT: 'ApproveOT',
+	STAFF: 'Staff',
+	TIMESHEETS: 'TimeSheets',
+	SALARY: 'Salary',
+	REVIEW: 'Review',
+	ADD_REGISTER_LEAVE: 'AddRegisterLeave',
+	ADD_REGISTER_LEAVE2: 'AddRegisterLeave2',
+	ADD_REGISTER_OT: 'AddRegisterOT',
+	ADD_REGISTER_OT2: 'AddRegisterOT2',
+	ADD_REGISTER_TIME_EXPLANATION: 'AddRegisterTimeExplanation',
+	ADD_REGISTER_PARENTAL_LEAVE: 'AddRegisterParentalLeave',
+	REGISTER_PARENTAL_LEAVE: 'RegisterParentalLeave',
+	REGISTER_LATEINEARLYOUT: 'RegisterLateInEarlyOut',
+	APPROVE_LATEINEARLYOUT: 'ApproveLateInEarlyOut',
+	ADD_REGISTER_LATEINEARLYOUT: 'AddRegisterLateInEarlyOut',
+	ADVANCED_FILTER_REGISTER: 'AdvancedFilterRegister',
+	SALARY_WEBVIEW: 'SalaryWebview',
+	EVENTMANAGE: 'EventManage',
+
+	PAYROLL_SHEET: 'PayrollSheet',
+	REPORT_BCG: 'ReportBCG',
+	REPORT_TLSG: 'ReportTLSG',
+	AT_SHEET: 'SummaryByTimekeeping',
+
+	TIME_SHEETS_WEBVIEW: 'TimeSheetWebview',
+	BENEFIT_WEBVIEW: 'BenefitWebview',
+	GPS_TIME_CLOCK: 'GPSTimeClock',
+	WIFI_TIME_CLOCK: 'WifiTimeClock',
+	QRRECORDHR: 'QRRecordHr',
+	NOTIFICATION_DASHBOARD: 'NotificationDashboard',
+	REPORT: 'Report',
+
+	PHONEBOOK: 'Phonebook',
+	PHONEBOOK_DETAIL: 'PhonebookDetail',
+	PHONEBOOK_SEARCH: 'PhonebookSearch',
+	ORG_LIST: 'OrgList',
+	ORG_LIST_REPORT: 'OrgListReport',
+
+	COMPENSATIONS_AND_BENEFITS: 'CompensationsAndBenefits',
+	BENEFITS: 'Benefits',
+	INSURANCE: 'Insurance',
+	INSURANCE_HEALTH: 'InsuranceHealth',
+	INSURANCE_HEALTH_FAMILY: 'InsuranceHealthFamily',
+	INSURANCE_HEALTH_PRIVILEGES: 'InsuranceHealthPrivileges',
+	INSURANCE_HEALTH_COMPANY_STATISTICS: 'InsuranceHealthCompanyStatistics',
+
+	NOTIFICATION: 'Notification',
+	NOTIFICATION_DETAIL: 'NotificationDetail',
+
+	RECORDHR: 'RecordHr',
+	RECORD: 'Record',
+	RECORDHR_DETAIL: 'RecordHrDetail',
+	PERSONAL_RELATIONS: 'PersonalRelations',
+	WORKING_BEFORE: 'WorkingBefore',
+	WORKING_NOW: 'WorkingNow',
+	WORKING_SALARY: 'WorkingSalary',
+	CONTRACT: 'Contract',
+	TRAIN_OUT: 'TrainOut',
+	ALLOWANCE_RECORDS: 'AllowanceRecords',
+	REWARDS: 'Rewards',
+	DISCIPLINARY: 'Disciplinary',
+	SETTINGS: 'Settings',
+	CHANGE_PASSWORD: 'ChangePassword',
+
+	KVP_PROCESS_INSURANCE: 'ProcessInsurance',
+	KVP_INSURANCE: 'KVP Insurance',
+	KVP_REVIEW: 'Review',
+
+	LOGIN: 'Login',
+	FORGOT_PASSWORD: 'ForgotPassword',
+
+	SALARY_HISTORY: 'SalaryHistory',
+	SALARY_HISTORY_SUPPORT: 'SupportSalary',
+	TRAINING: 'Training',
+	HEALTH_INSURANCE: 'HealthInsurance',
+	WORKING_IN: 'WorkingIn',
+	INSURANCE_NOW: 'InsuranceNow',
+	INSURANCE_BEFORE: 'InsuranceBefore',
+	REGULAR_HEALTH_CHECKS: 'RegularHealthChecks',
+	GPS_WFH_REGISTER: 'GPSWFHRegister',
+	GPS_WFH_TIME_CLOCK: 'GPSWFHTimeClock',
+
+	PERSON_RELATIONSHIP_EDIT: 'PersonRelationshipEdit',
+	ADD_PERSON_RELATIONSHIP: 'AddPersonRelationship',
+	ADD_EMP_PROFILE: 'AddEmpProfile',
+
+	InOutMng: 'InOutMng',
+	FACEID_TIME_CLOCK: 'FaceIDTimeClock',
+	FACEID_CHECK_TIME_CLOCK: 'FaceIDCheckTimeClock',
+
+	COMMEND_BCG: 'Commend',
+	COMMITEE_BCG: 'Commitee',
+	CONCURRENTLY_BCG: 'Concurrently',
+	DISCIPLINE_BCG: 'Discipline',
+
+	COMMENDCV_BCG: 'CommendCV',
+	COMMITEECV_BCG: 'CommiteeCV',
+	CONCURRENTLYCV_BCG: 'ConcurrentlyCV',
+	DISCIPLINECV_BCG: 'DisciplineCV',
+
+	QRRECORDHR_SCAN: 'QRRecordHrScan',
+	KPI_PROCESS: 'KPIProcess',
+	KPI_PROCESS_CV: 'KPIProcessCV',
+
+	REGISTER_RESIGN: 'RegisterResign',
+	ADD_REGISTER_RESIGN: 'AddRegisterResign',
+	NOT_FOUND: 'NOT_FOUND'
+};
+
+export const switchNavigation = {
+	LOGIN_STACK: 'LoginStack',
+	CHECK_COMPANY_CODE: 'CheckCompanyCode',
+};
+
+export const tabNavigation = {
+	HOME: 'tabHome',
+	PHONEBOOK: 'tabPhonebook',
+	COMPENSATIONS_AND_BENEFITS: 'tabCompensationsAndBenefits',
+	NOTIFICATION: 'tabNotification',
+	RECORD: 'tabRecord',
+};
